@@ -1,0 +1,188 @@
+body {
+  overflow-x: hidden; }
+  body .simple-line {
+    border: 2px solid #0055b3;
+    margin: 20px;
+    padding: 10px 30px;
+    min-height: 95vh; }
+    body .simple-line .personal-info .personal-img {
+      position: absolute;
+      top: 50px;
+      right: 50px; }
+      body .simple-line .personal-info .personal-img .print {
+        width: 80px;
+        height: 70px;
+        border: 1px solid #41719C;
+        padding: 15px;
+        background-color: #44546A;
+        border-radius: 8px; }
+    body .simple-line .personal-info .personal-common {
+      margin: auto; }
+      body .simple-line .personal-info .personal-common .img-border {
+        margin: auto;
+        border: 2px solid #0070C0;
+        width: 120px;
+        height: 140px; }
+      body .simple-line .personal-info .personal-common .info-text {
+        margin: auto;
+        border-bottom: 1px solid #000;
+        width: 20%; }
+      body .simple-line .personal-info .personal-common .personal-head {
+        background-color: #203864;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        width: 25%;
+        padding: 3px;
+        margin: 25px auto; }
+      body .simple-line .personal-info .personal-common .step-icon {
+        display: flex;
+        justify-content: space-between; }
+        body .simple-line .personal-info .personal-common .step-icon .next-icon .next .next-img {
+          width: 100px;
+          height: 40px; }
+        body .simple-line .personal-info .personal-common .step-icon .next-icon .next .rotates {
+          transform: rotate(180deg); }
+    body .simple-line .main-section {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      body .simple-line .main-section .logo-section {
+        width: 500px;
+        margin-bottom: 30px; }
+        body .simple-line .main-section .logo-section img {
+          width: 100%;
+          height: 100%;
+          display: block; }
+      body .simple-line .main-section .content-section .head-text {
+        padding: 15px;
+        border: 1px solid #000;
+        background-color: #b9b8b8;
+        margin-bottom: 30px;
+        display: block;
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000; }
+      body .simple-line .main-section .content-section .login-section {
+        border: 1px solid #000;
+        padding: 30px; }
+        body .simple-line .main-section .content-section .login-section input {
+          display: block;
+          background-color: #0055b3;
+          padding: 15px;
+          width: 100%;
+          margin-bottom: 30px;
+          display: block;
+          font-family: 'Times New Roman', Times, serif;
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 18px; }
+          body .simple-line .main-section .content-section .login-section input:last-child {
+            margin-bottom: 0; }
+          body .simple-line .main-section .content-section .login-section input::placeholder {
+            color: #fff; }
+    body .simple-line .contact-section {
+      position: absolute;
+      bottom: 40px;
+      right: 30px; }
+      body .simple-line .contact-section a {
+        display: block;
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000; }
+    body .simple-line .section-head {
+      background-color: #0055b3;
+      padding: 10px;
+      line-height: 1.6;
+      display: block;
+      font-family: 'Times New Roman', Times, serif;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 22px; }
+    body .simple-line .categories {
+      margin: 15px 5px; }
+      body .simple-line .categories .col-6 .category-item {
+        background-color: #0055b3;
+        border-radius: 5px;
+        margin-bottom: 6px;
+        padding: 10px;
+        letter-spacing: .5px;
+        display: block;
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center; }
+      body .simple-line .categories .col-6 .collapse-text {
+        margin-left: 50px;
+        border: 1.5px solid #70AD47;
+        border-radius: 5px;
+        width: 85%;
+        padding: 2px; }
+        body .simple-line .categories .col-6 .collapse-text .collapse-item {
+          text-decoration: none;
+          color: #000; }
+      body .simple-line .categories .col-6 .image {
+        width: 270px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #44546A;
+        border: 1px solid #41719C;
+        margin: 15px;
+        margin-left: 220px; }
+        body .simple-line .categories .col-6 .image .printer {
+          width: 50px;
+          height: 50px; }
+        body .simple-line .categories .col-6 .image .text {
+          color: #fff; }
+          body .simple-line .categories .col-6 .image .text .text-style {
+            padding: 0 55px; }
+      body .simple-line .categories .register .form-img {
+        width: 100%;
+        padding: 4px;
+        margin: 10px; }
+        body .simple-line .categories .register .form-img .img-border {
+          margin: 0 30px;
+          border: 1px solid #41719C;
+          padding: 10px;
+          width: 100px;
+          height: 140px; }
+        body .simple-line .categories .register .form-img .input-text .input-name {
+          font-weight: 700;
+          font-size: 14px; }
+        body .simple-line .categories .register .form-img .input-form input {
+          margin-bottom: 7px;
+          border: 1px solid #41719C; }
+      body .simple-line .categories .register .text-area {
+        margin-left: 50px; }
+        body .simple-line .categories .register .text-area textarea {
+          border: 1px solid #41719C; }
+        body .simple-line .categories .register .text-area div {
+          text-align: right;
+          margin-right: 40px;
+          margin-top: 10px; }
+          body .simple-line .categories .register .text-area div .read-more {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 18px;
+            color: #0070C0; }
+  body .first-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95vw;
+    height: 95vh;
+    margin: 0; }
+
+/*# sourceMappingURL=main.css.map */

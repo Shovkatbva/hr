@@ -1,0 +1,86 @@
+.menu{
+    width: 80%;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btnDesign {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.lblDesign {
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.adminPanel{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color:blueviolet;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+#menuContainer{
+    cursor: pointer;
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(128, 43, 226);
+    float: left;
+    margin-left: 0px
+}
+#buttons{
+    width: 78%;
+    height: 75px;
+    margin-top: 20px;
+    background-color:rgb(92, 24, 156);
+    display: inline-block;
+}
+
+.btnDesign1 {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.keyword{
+    width: 200px;
+    height: 30%;
+}
+table, td, th {
+    border: 1px solid black;
+}
+#tableContainer{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 78%;
+    height: auto;
+    background-color: thistle;
+    margin-left: 21%;
+    margin-top: 1.5%;
+
+}
+#tableDesign{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: thistle;
+    clear: both;
+}
+.table{
+    border: 1px solid black;
+    /*border-collapse: collapse;
+    width: 100%;
+    background-color: thistle;
+    clear: both;*/
+}
+
