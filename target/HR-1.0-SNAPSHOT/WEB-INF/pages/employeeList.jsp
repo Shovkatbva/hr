@@ -7,7 +7,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-</script>
 <table id="employeeData" class="display" style="width:100%">
     <thead>
     <tr>
@@ -18,7 +17,6 @@
         <th>Organization</th>
         <th>Sector</th>
         <th>Position</th>
-
     </tr>
     </thead>
     <tbody>

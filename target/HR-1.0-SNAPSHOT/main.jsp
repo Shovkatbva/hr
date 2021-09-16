@@ -22,7 +22,7 @@
     </div>
     <div class="categories row">
         <div class="col-6">
-            <a href="roleList1.jsp" id="nazAp" class="category-item">Nazirliyin Aparatı </a>
+            <a href="cs?action=getEmployeeView" id="nazAp" class="category-item">Nazirliyin Aparatı </a>
             <a href="index22.html" class="category-item">İnternet və Yeni Texnologiyaların Tədrisi Mərkəzi</a>
             <a href="index22.html" class="category-item">Şərur rayon filialı</a>
             <a href="index22.html" class="category-item">Culfa rayon filialı</a>

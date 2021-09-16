@@ -17,7 +17,6 @@
         <th>Organization</th>
         <th>Sector</th>
         <th>Position</th>
-
     </tr>
     </thead>
     <tbody>
